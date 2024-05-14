@@ -44,11 +44,9 @@ _Origem: (42.51539172836014, -8.808832763662798)_
 
 Pazo A Capitana, Rúa Sabugueiro, Sabugueiro, Os Olmos, Vilariño, Cambados, O Grove, O Salnés, Pontevedra, Galicia, 36630, España
 
-
 _Destino: (42.46310480657001, -8.74192712354374)_ 
 
 Mosteiro de Armenteira, EP-9406, Cuchín, A Armenteira, Meis, O Salnés, Pontevedra, Galicia, 36192, España
-
 
 Usando essas coordenadas como ponto de referencia no google, estamos a falar de ***10,3KM***
 ![image](https://lh3.googleusercontent.com/drive-viewer/AKGpihalU7aIPAb9cbMlklYE7TmnuAb3TVWXWIp96MR4k2BgGyTLndNLuUS362om6OvGzdE1vHmAaJf7I7EiuSnT9-co6y8JiCwSmmc=s1600-rw-v1)
@@ -63,18 +61,18 @@ Levando em conta as coordenadas aqui esta uma comparação usando as bibliotecas
 Embora o Google Maps seja uma referência amplamente reconhecida e utilizada, seu custo pode ser proibitivo para muitos projetos devido ao seu modelo de cobrança baseado em solicitações. No entanto, suas funcionalidades e precisão podem servir como ponto de referência para comparação.
 
 
-- Geopy (em uso atualmente) - 7.999414386907035 Km 
+- **Geopy** (em uso atualmente) - 7.999414386907035 Km 
 Embora o Geopy ofereça uma abordagem interessante ao calcular distâncias com base em linhas retas, sua limitação reside na falta de consideração pelas condições reais da estrada. Isso pode resultar em estimativas imprecisas em comparação com os métodos de roteamento baseados em mapas. No entanto, pode ser uma escolha viável para casos de uso simples e com requisitos de baixo custo.
 ![image](https://lh3.googleusercontent.com/drive-viewer/AKGpihZDFB5UAmsHlYiLJ2JSrOWe3d7LPr6-alXOEQVqqMXCqYmnOKQhHM-av5EvidpgaZlg5nFXcKLo8DJHC_8J4hQXXh4b6QG7Ob0=s1600-rw-v1)
 
 
-- OSRM (Gratuito) - 10.1496 Km
+- **OSRM** (Gratuito) - 10.1496 Km
 O OpenStreetMap, em conjunto com o OSRM, destaca-se como uma opção altamente vantajosa devido à sua gratuidade. O uso de dados de código aberto e a capacidade de calcular rotas com base nas estradas reais garantem uma precisão confiável. É uma escolha sólida para projetos com restrições orçamentárias e que necessitam de resultados precisos.
 ![image](https://lh3.googleusercontent.com/drive-viewer/AKGpihZlTsvXGClvzOgY5IDwT-MwrHvLgT3VrbmwxSiKbVfiD2zFHQ1hY2PFBEDlWMGu8ZL2D93ZUQKI6qEFILPhtNxHA2djPXcXwg=s1600-rw-v1)
 [Test Map](https://www.openstreetmap.org/directions?engine=graphhopper_car&route=42.5152%2C-8.8092%3B42.4633%2C-8.7420#map=13/42.4980/-8.7633)
 
 
-- MapBox (Pago) - 10.160298000000001 km
+- **MapBox** (Pago) - 10.160298000000001 km
 O Mapbox é uma opção paga, mas seu custo é relativamente baixo em comparação com o Google Maps. Sua flexibilidade, recursos avançados e confiabilidade a longo prazo o tornam uma escolha atraente para projetos que exigem precisão e desempenho consistentes. Para empresas que podem investir um pouco mais em suas soluções de mapeamento, o Mapbox oferece uma alternativa robusta e escalável.
 ![image](https://lh3.googleusercontent.com/drive-viewer/AKGpihbC-2-9jIRtyk-BQ1Tjn6QPyTjpWx5xRDci7mKI1H32FaQaxMKpP75x-4vj2LWKoyXoWD2SmX3Ga-F2wgFpxV7d-xzmEpru9Q=s1600-rw-v1)
 
